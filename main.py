@@ -25,3 +25,18 @@ def lineariskereses():
         print("van: "+i)
     else:
         print("nincs")
+
+def kivalasztastetel():
+    prim=False
+    n=9999
+    i=2
+    while not(prim):
+        n+=1
+        i=2
+        while (i<math.sqrt(n)) and (n%i!=0):
+            i+=1
+        prim i>math.sqrt(n)
+    print(n)
+
+
+
